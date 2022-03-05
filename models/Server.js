@@ -12,7 +12,7 @@ const { getDataPokemon } = require('../api/pokemon');
 
 const cor = {
     cors:{
-        origin: "http://localhost:4200",
+        origin: "*",
         methods: ["GET", "POST"]
     }
 }
